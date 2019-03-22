@@ -1,0 +1,35 @@
+{
+  "name": "pay-ngx-example",
+  "version": "1.0.0",
+  "description": "Simple Angular 2-7 example of how to use Poool Pay SDK",
+  "main": "index.js",
+  "repository": "https://github.com/p3ol/pay-ngx-example.git",
+  "author": "Ugo Stephant <ugo@poool.fr>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/plugin-transform-runtime": "^7.4.0",
+    "@babel/preset-env": "^7.4.1",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "@angular/common": "^7.2.10",
+    "@angular/compiler": "^7.2.10",
+    "@angular/core": "^7.2.10",
+    "@angular/platform-browser": "^7.2.10",
+    "@angular/platform-browser-dynamic": "^7.2.10",
+    "@angular/router": "^7.2.10",
+    "@babel/runtime-corejs2": "^7.4.2",
+    "rxjs": "^6.4.0",
+    "zone.js": "^0.8.26"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --config ./webpack.config.js --hot --inline --open"
+  }
+}
