@@ -27,7 +27,7 @@
     "@angular/router": "^11.0.0",
     "@babel/runtime-corejs2": "^7.4.2",
     "rxjs": "^6.4.0",
-    "zone.js": "^0.11.0"
+    "zone.js": "^0.11.1"
   },
   "scripts": {
     "start": "node_modules/.bin/webpack-dev-server --config ./webpack.config.js --hot --inline --open"
