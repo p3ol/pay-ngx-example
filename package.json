@@ -1,7 +1,7 @@
 {
   "name": "pay-ngx-example",
   "version": "1.0.0",
-  "description": "Simple Angular 2-7 example of how to use Poool Pay SDK",
+  "description": "Simple Angular 2-11 example of how to use Poool Pay SDK",
   "main": "index.js",
   "repository": "https://github.com/p3ol/pay-ngx-example.git",
   "author": "Ugo Stephant <ugo@poool.fr>",
