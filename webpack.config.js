@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: './src/index.js',
   mode: 'development',
+  devtool: 'inline-source-map',
   module: {
     rules: [{
       test: /\.js$/,
@@ -24,13 +25,14 @@ module.exports = {
   ],
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'bundle.[hash].js',
+    filename: 'bundle.[fullhash].js',
   },
-  devtool: 'inline-source-map',
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     port: 8888,
     host: 'localhost',
     historyApiFallback: true,
+    hot: true,
+    open: true,
   },
 };
